@@ -1,0 +1,18 @@
+:root {
+	// colors
+	--white: #ffffff;
+	--black: #000000;
+	--dark-orange: #d87d4a;
+	--light-orange: #fbaf85;
+	--grey: #f1f1f1;
+	--dark-grey: #101010;
+	--bg-color: #141414;
+
+	// utils
+	--gutter: max(10rem, 24px);
+	--transition: all 0.3s ease;
+
+	@media screen and (max-width: 900px) {
+		--gutter: max(10px, 6rem);
+	}
+}
